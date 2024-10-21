@@ -10,16 +10,26 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "@hookform/resolvers": "^3.9.0",
     "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.2",
+    "drizzle-zod": "^0.5.1",
     "next": "14.2.15",
+    "pg": "^8.13.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.1",
+    "tsx": "^4.19.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.11.10",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "daisyui": "^4.12.13",
+    "drizzle-kit": "^0.26.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "postcss": "^8",
