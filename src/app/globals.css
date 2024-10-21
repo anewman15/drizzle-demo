@@ -25,3 +25,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.page {
+  @apply bg-white my-6 px-6 py-8 rounded-lg h-screen
+}
+
+.text-field {
+  @apply shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500
+}
